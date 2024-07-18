@@ -366,6 +366,7 @@ th {
     font-size: 14px;
     font-weight: 400;
     padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 input[type=text], select {
@@ -374,6 +375,14 @@ input[type=text], select {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     border: none;
-    margin: 3px;
+    margin: 5px;
+    color: rgba(255, 255, 255, 0.5);  
+ }
+ .select-w-1{
+    width: 38%;
+ }
+ .select-w-2{
+    width: 77.5%;
+    margin-bottom: 20px;
  }
  
