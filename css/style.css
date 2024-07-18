@@ -318,7 +318,8 @@ body {
     width: 50%;
     margin-top: 4%;
 }
-.bmi-table h3{
+
+.bmi-table h3 {
     color: rgb(255, 255, 255);
     font-size: 25px;
     font-weight: 700;
@@ -341,13 +342,38 @@ table td {
     color: rgba(255, 255, 255, 0.5);
     font-size: 12px;
     font-weight: 400;
-  
+
 }
 
-table td, th {
+table td,
+th {
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 8px 10px;
 }
-.bmi-calculate{
 
+.bmi-calculate {
+    margin-top: 4%;
 }
+
+.bmi-calculate h3 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.bmi-calculate p {
+    color: rgba(255, 255, 255, 0.5);   
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+input[type=text], select {
+    width: 35%;
+    padding: 12px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    margin: 3px;
+ }
+ 
