@@ -10,7 +10,9 @@ body {
     background: rgb(0, 0, 0);
     font-family: "Inter", sans-serif;
 }
-
+.hidden{
+    display: none;   
+}
 .btn-primary {
     border-radius: 46px;
     background: rgb(230, 83, 60);
@@ -73,7 +75,6 @@ body {
     padding: 6px 5px;
     align-items: center;
     padding-right: 10px;
-
 }
 
 .menu-list li {
@@ -92,7 +93,6 @@ body {
     margin: 0 auto;
     padding-top: 3%;
     display: flex;
-
 }
 
 .banner-section-left {
@@ -126,7 +126,6 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-
 }
 
 .transparent-bg-right {
@@ -198,7 +197,6 @@ body {
     align-items: center;
     flex-direction: column;
     margin-top: 10%;
-
 }
 
 .habit-container h1 {
@@ -254,16 +252,12 @@ body {
 /* run section start */
 .run-container {
     width: 70%;
-    height: 371px;
     background-color: aliceblue;
     margin: 5% auto;
     display: flex;
     justify-content: space-between;
     border-radius: 18px;
-
     background: rgb(34, 34, 34);
-
-
 }
 
 .run-text {
@@ -303,8 +297,8 @@ body {
 /* bmi calculator section start */
 .bmi-container {
     width: 100%;
-    height: 350px;
     background: rgb(34, 34, 34);
+    padding-bottom: 2%;
 }
 
 .bmi-section {
@@ -385,4 +379,260 @@ input[type=text], select {
     width: 77.5%;
     margin-bottom: 20px;
  }
- 
+ /* bmi calculator section end */
+
+
+ /* team member section start */
+ .team-container{
+    width: 70%;
+    margin: 1% auto;   
+    padding: 3%;
+   
+ }
+ .team-container h1{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+ }
+ .team-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+ }
+.team-member{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 2%;
+    background: rgb(34, 34, 34);
+    border-radius: 18px;
+    padding: 2%;
+   
+}
+.member{
+    width: 100%;
+    background-color: aliceblue;
+}
+.member img{
+    width: 100%;
+    height: 310px;
+}
+.backgound{
+    width: 100%;
+    height: 312px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+}
+.backgound h5{
+   font-size: 15px;
+   color: white;
+   position: relative;
+   top: 85%;
+   padding-left: 5%;
+}
+.backgound p{
+    font-size: 15px;
+    color: white;
+    opacity: .5;
+    position: relative;
+    top: 80%;
+    padding-left: 5%;
+    text-align: left;
+ }
+.member-1{
+    background-image: url(../assets/trainer1.png);
+   
+}
+.member-2{
+    background-image: url(../assets/trainer2.png);
+}
+.member-3{
+    background-image: url(../assets/trainer3.png);
+}
+.member-4{
+    background-image: url(../assets/trainer4.png);
+}
+.member-5{
+    background-image: url(../assets/trainer5.png);
+}
+.member-6{
+    background-image: url(../assets/trainer6.png);
+}
+ /* team member section end */
+
+.footer{
+    width: 100%;
+    background: rgb(34, 34, 34);
+    padding-bottom: 2%;
+    
+}
+.footer-container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo{
+    padding: 2% 0% 0% 0%;
+}
+.footer-logo h1{
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+}
+.footer-logo p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 20px;
+}
+.footer-get{
+    margin-top: 2%;  
+}
+.footer-get h3{
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    margin-top: 2%;
+}
+.footer-get li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 10px;
+}
+.footer-served{
+    margin: 0 auto;
+    width: 70%;
+    border-top: 1px solid  rgba(255, 255, 255, 0.1);
+    margin-top: 4%;
+}
+.footer-served p{
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 2%;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* responsive for small device */
+
+@media screen and (max-width:576px){
+    .hidden{
+        display: inline-block;
+        float: right;
+        padding-right: 10%;
+       
+    }
+    .hidden .i{
+        
+        color: rgb(255, 255, 255);
+    }
+    .nav {        
+        flex-direction: column;
+        width: 100%;
+        background-color: rgba(48, 39, 39, 0.5);
+        padding-left: 5%;
+    }
+    .nav h1{        
+        text-align: left;
+      
+    }
+    .menu-list {
+        display: none;      
+    }
+    .banner-section{
+        flex-direction: column;
+    }
+    .banner-section-left {
+        width: 100%;
+    }
+    .banner-section-left h1 {
+        color: rgb(255, 255, 255);
+        font-size: 38px;
+        font-weight: 900;
+        line-height: 3rem;
+        margin-top: 4%;
+        padding: 0;
+    }
+    .banner-section-right {
+        background-image: url(../assets/banner.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 100%;
+        min-height:500px;
+        background-position: calc(100% - 20%) center;
+        margin-top: 30px;
+    }
+    .habit-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10%;   
+    }
+    .habit-container h1 {
+        color: rgb(255, 255, 255);
+        font-size: 38px;
+        font-weight: 900;
+        width: 100%;
+        text-align: center;
+    }
+    .habit-cart-container {
+        flex-direction: column;
+    }
+    .run-container {
+        width: 100%;       
+        margin: 5% auto;
+       flex-direction: column;
+    }
+    .run-text {
+        width: 100%;
+        padding: 4%;
+    }
+    .bmi-section {
+        width: 100%;
+       flex-direction: column;
+    }
+    .bmi-table {
+        width: 100%;
+        margin-top: 4%;
+    }
+    table {
+        width: 100%;
+    }
+    input[type=text], select {
+        width: 40%; 
+     }
+     .select-w-1{
+        width: 45%;
+     }
+     .select-w-2{
+        width: 95.5%;
+        margin-bottom: 20px;
+     }
+     .team-container{
+        width: 100%;
+     }
+     .team-member{
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-container{
+        width: 100%;     
+        flex-direction: column;
+        padding-left: 5%;
+    }
+}
