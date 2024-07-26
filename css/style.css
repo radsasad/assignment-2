@@ -264,7 +264,6 @@ body {
 }
 
 .run-text {
-    width: 50%;
     padding: 4%;
 }
 
@@ -314,10 +313,8 @@ body {
     width: 70%;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
-   
+    justify-content: space-between;  
     margin-top: 5%;
-
 }
 .video-left{
    padding: 5% 0;
@@ -348,7 +345,14 @@ body {
 .video-right{
     padding: 5% 10%;
 }
-
+.video-right p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+}
 
 
 /* videos section end */
@@ -746,5 +750,17 @@ select {
         width: 100%;
         flex-direction: column;
         padding-left: 5%;
+    }
+    .video-container {
+        margin: 0;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    .video-left{
+        padding: 1% 0;
+        
+     }
+     .video-left iframe{  
+        width: 400px;
     }
 }
