@@ -307,6 +307,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 40px;
 }
 
 .video-container {
@@ -314,9 +315,38 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 10%;
+   
+    margin-top: 5%;
 
+}
+.video-left{
+   padding: 5% 0;
+   
+}
+.video-text{
+    border-left: 2px solid rgb(230, 83, 60);
+    margin-bottom: 40px;
+}
+.video-text p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+}
+.video-text h2{
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.2em;
+    color:rgb(230, 83, 60);
+    padding-left: 20px;
+    text-transform:uppercase;
+}
+.video-left iframe{  
+    border-radius: 18px;
+}
+.video-right{
+    padding: 5% 10%;
 }
 
 
