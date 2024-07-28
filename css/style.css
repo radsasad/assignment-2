@@ -51,7 +51,6 @@ body {
     width: 80%;
     margin: 0 auto;
     padding-top: 3%;
-
 }
 
 .nav h1 {
@@ -764,3 +763,64 @@ select {
         width: 400px;
     }
 }
+@media screen and (min-width:576px) and (max-width:768px) {
+ 
+    .banner-section {
+        flex-direction: column;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 3%;
+    }
+    .banner-section-left {
+        width: 100%;
+    }
+    .banner-section-right {
+        width: 100%;
+    }
+  
+    .habit-cart-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    .run-container {
+        width: 100%;   
+    }
+    .run-text {
+        width: 70%;
+        padding: 4%;
+    }
+    .run-img {
+        padding: 2%;
+    }
+    
+    .run-container img {
+        width: 100%;
+        height: 315px;
+        border-radius: 18px;   
+    }
+    .video-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between; 
+        flex-direction: column; 
+        margin-top: 5%;
+    
+    }
+    .video-left iframe{
+         width: 100%;
+         height: 420px;
+    }
+    .bmi-section {
+        width: 100%;
+       flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
