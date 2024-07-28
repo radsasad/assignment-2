@@ -437,6 +437,11 @@ select {
     margin: 5px;
     color: rgba(255, 255, 255, 0.5);
 }
+option {
+    background-color: rgb(24, 29, 29);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  }
 
 .select-w-1 {
     width: 38%;
@@ -734,6 +739,7 @@ select {
 
     .team-container {
         width: 100%;
+        padding: 0;
     }
 
     .team-member {
@@ -749,7 +755,7 @@ select {
         padding-left: 5%;
     }
     .video-container {
-        margin: 0;
+        width: 100%;
         flex-direction: column;
         margin-top: 5%;
     }
@@ -758,7 +764,7 @@ select {
         
      }
      .video-left iframe{  
-        width: 400px;
+        width: 100%;
     }
 }
 @media screen and (min-width:576px) and (max-width:768px) {
