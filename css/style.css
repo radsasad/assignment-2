@@ -455,7 +455,6 @@ select {
     width: 70%;
     margin: 1% auto;
     padding: 3%;
-
 }
 
 .team-container h1 {
@@ -482,12 +481,11 @@ select {
     background: rgb(34, 34, 34);
     border-radius: 18px;
     padding: 2%;
-
 }
 
 .member {
     width: 100%;
-    background-color: aliceblue;
+   
 }
 
 .member img {
@@ -816,6 +814,26 @@ select {
          height: 420px;
     }
     .bmi-section {
+        width: 100%;
+       flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+    }
+    .bmi-table {
+        width: 100%;
+        margin-top: 4%;
+        
+    }
+    .team-container {
+        width: 100%; 
+        padding: 0;         
+    }
+    .team-member {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0;
+    }
+    .footer-container {
         width: 100%;
        flex-direction: column;
         display: flex;
